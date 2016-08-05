@@ -7,6 +7,7 @@
 }
 
 body {
+  font-family: 'Exo', sans-serif;
   background: #F4F4F4;
   color: #2B2D42;
   height: 100vh;
@@ -78,9 +79,15 @@ i {
   flex-direction: column;
 }
 
+ul {
+  text-align: center;
+}
+
 li {
+  min-width: 350px;
   list-style: none;
   padding: 0.8%;
+  font-size: 1.1em;
 }
 
 h6 {
