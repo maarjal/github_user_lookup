@@ -16,7 +16,7 @@ body {
 .wrap {
   width: 80%;
   margin: 0 auto;
-  border: 2px solid hotpink;
+  // border: 2px solid hotpink;
   padding: 3%;
 }
 
@@ -38,4 +38,17 @@ input {
   border-radius: 0.2em;
   width: 12em;
   height: 2em;
+}
+
+#results {
+  margin: 3%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+li {
+  list-style: none;
+  padding: 0.5%;
 }
