@@ -18,11 +18,11 @@ This website uses Github API to display public repositories when searching by Gi
 ## Setup/Installation Requirements
 
 * Clone this repository
-* initialize and install Node and Bower by running the following commands:
+* Initialize and install Node and Bower by running the following commands:
   * $ npm install
   * $ bower install
 * You need your own Github API key to run this project:
-  * Visit the Settings area of your GitHub account
+  * Visit the 'Settings' area of your GitHub account
   * Select 'Personal Access Tokens' from the sidebar
   * Hit 'Generate New Token'.
 * Place your token in an '.env' file at the top level of your directory, containing:
