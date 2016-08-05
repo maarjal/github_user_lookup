@@ -7,7 +7,7 @@ var UserLookup = function() {
 UserLookup.prototype.getRepos = function(username) {
   $.get('https://api.github.com/users/' + username + '/repos?access_token=' + apiKey + '&per_page=500').then(function(response) {
     for (var i = 0; i < response.length; i++) {
-      $('#results').append('<li> <strong>Name:</strong> ' + response[i].name + '</li>' +
+      $('#results').append('<li><strong>Name:</strong> ' + response[i].name + '</li>' +
                             '<li class="description"><strong>Description:</strong> ' + response[i].description + '</li>');
       if (response[i].description === null) {
         $('.description').hide();
@@ -18,9 +18,6 @@ UserLookup.prototype.getRepos = function(username) {
     $('.error').append('<h6>Username not found. Try again!</h6>');
   });
 };
-
-
-
 
 
 exports.userModule = UserLookup;

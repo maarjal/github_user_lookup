@@ -1,6 +1,5 @@
 var UserLookup = require('./../js/github.js').userModule;
 
-
 $(document).ready(function() {
   $('.user-lookup').submit(function(event) {
     event.preventDefault();
