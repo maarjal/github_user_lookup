@@ -1,5 +1,5 @@
 var UserLookup = require('./../js/github.js').userModule;
-var apiKey = require('./../.env').apiKey;
+
 
 $(document).ready(function() {
   $('.user-lookup').submit(function(event) {

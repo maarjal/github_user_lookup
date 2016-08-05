@@ -1,3 +1,5 @@
+var apiKey = require('./../.env').apiKey;
+
 var UserLookup = function() {
 
 };
